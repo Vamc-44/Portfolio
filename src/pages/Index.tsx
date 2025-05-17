@@ -1,7 +1,6 @@
-
 import { useState, useRef, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { GitHub, Code, Database, BarChart, PieChart } from "lucide-react";
+import { Github, Code, Database, BarChart, PieChart } from "lucide-react";
 
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";

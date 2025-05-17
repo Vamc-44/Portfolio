@@ -1,10 +1,9 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, GitHub, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -80,7 +79,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"
               >
-                <GitHub className="text-green" size={20} />
+                <Github className="text-green" size={20} />
               </a>
               
               <a 

@@ -1,9 +1,8 @@
-
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { GitHub, ExternalLink } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 interface Project {
   id: number;
@@ -139,7 +138,7 @@ const Projects = ({ filter }: ProjectsProps) => {
               asChild
             >
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                <GitHub className="mr-2" size={16} />
+                <Github className="mr-2" size={16} />
                 Code
               </a>
             </Button>
