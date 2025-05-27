@@ -34,11 +34,13 @@ const About = () => {
             
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               {[
-                "Python", "R", "SQL", 
-                "TensorFlow", "PyTorch", "Scikit-learn",
-                "Pandas", "NumPy", "Matplotlib", 
-                "Tableau", "Power BI", "D3.js",
-                "AWS", "Azure", "Docker"
+                "Python", "Power BI", "SQL",  
+                "Tableau", "R", "Excel",
+                "Statistical Analysis", "Data Visualization",
+                "Pandas", "NumPy", "Matplotlib",
+                "Machine Learning", "Deep Learning",
+                "Generative Ai", "NLP", "LLMs",
+                "AWS", "Microsoft Fabric"
               ].map((tech) => (
                 <div key={tech} className="flex items-center">
                   <span className="text-green mr-2">▹</span>

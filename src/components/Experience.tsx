@@ -7,59 +7,56 @@ import { Badge } from "@/components/ui/badge";
 const Experience = () => {
   const experiences = [
     {
-      id: "internship1",
-      company: "DataTech Solutions",
-      title: "Data Science Intern",
-      period: "May 2023 - Aug 2023",
+      id: "Assistantship",
+      company: "Centre for Academic Support and Assessment, UH System",
+      title: "Graduate Assistant - Team Lead",
+      period: "January 2024 - May 2025",
       description: [
-        "Developed predictive models to forecast customer behavior using Python, scikit-learn, and Pandas",
-        "Automated data cleaning and preprocessing pipelines, reducing preparation time by 30%",
-        "Collaborated with product team to implement ML model recommendations into the platform",
-        "Presented weekly insights to stakeholders using interactive Tableau dashboards"
+        "Supervised 18 Graduate Assistants and led optimization of digital exam systems, improving scheduling operations for 3,000+ students per semester.",
+        "Streamlined operations using Excel-driven templates and integrated automated validation logic, reducing scheduling conflicts by 40%. ",
+        "Maintained IT infrastructure and cross-functional communication to ensure system continuity and resolve technical roadblocks efficiently. "
       ],
-      skills: ["Python", "Machine Learning", "Pandas", "Tableau"]
+      skills: ["Process Automation", "IT Infrastructure", "Workflow Optimization", "Leadership"]
     },
     {
-      id: "research",
-      company: "University Research Lab",
-      title: "Research Assistant",
-      period: "Sep 2022 - Apr 2023",
+      id: "Full-Time",
+      company: "RECVUE",
+      title: "Data Engineer",
+      period: "June 2022 - June 2023",
       description: [
-        "Conducted research on novel machine learning techniques for healthcare applications",
-        "Developed and implemented deep learning models for medical image segmentation using PyTorch",
-        "Co-authored two academic papers published in peer-reviewed journals",
-        "Presented findings at the International Conference on Machine Learning in Healthcare"
+        "Participated in full-cycle development of revenue processing systems-built workflows using Scala and Apache Spark, implementing custom transformations to improve data accuracy and reduce processing time by 30%. ",
+        "Created a Python automation script that streamlined the revenue processing workflow, cutting the processing time from 40 minutes to 10 minutes, boosting overall revenue cycle efficiency.",
+        "Collaborated with cross-functional engineering teams, improving sprint throughput by 40% and reducing post deployment bugs by 65%."
       ],
-      skills: ["PyTorch", "Deep Learning", "Research", "Medical AI"]
+      skills: ["Python", "Spark", "Jira", "Scala", "Quality Assurance"]
     },
     {
-      id: "project",
-      company: "Climate Analysis Group",
-      title: "Data Analyst (Project)",
-      period: "Jan 2022 - May 2022",
+      id: "Internship",
+      company: "Robic Rufarm",
+      title: "AI/ML Intern",
+      period: "June 2021 - July 2021",
       description: [
-        "Analyzed large climate datasets to identify patterns and trends using R and statistical methods",
-        "Created interactive visualizations to communicate findings to non-technical stakeholders",
-        "Developed a dashboard for real-time monitoring of climate variables",
-        "Collaborated with environmental scientists to interpret results and form actionable insights"
+        "Cleaned biological data for anomaly detection using Python and applied supervised ML models.",
+        "Designed and trained ML models (XGBoost, scikit-learn) for shrimp species classification and disease prediction, achieving 85% accuracy on biological data. ",
+        "Interpreted results for non-technical teams to aid real-time farm health decisions."
       ],
-      skills: ["R", "Data Visualization", "Statistical Analysis", "Time Series"]
+      skills: ["Python", "Data Preprocessing", "Supervised/Unsupervised Models", "Domain Knowledge"]
     }
   ];
 
   const education = [
     {
-      degree: "Master of Science in Data Science",
-      institution: "University of Data Analytics",
-      period: "2021 - 2023",
-      description: "Specialized in machine learning and statistical modeling. Thesis on 'Advanced Predictive Models for Healthcare Outcomes'.",
-      courses: ["Advanced Machine Learning", "Statistical Inference", "Big Data Systems", "Neural Networks", "Natural Language Processing"]
+      degree: "Master of Science in Engineering Data Science",
+      institution: "University of Houston - main campus",
+      period: "2023 - 2025",
+      description: "",
+      courses: ["Deep Learning", "Information Visualization", "Data Analysis", "Probability & Statistics", "Digital Image Processing"]
     },
     {
-      degree: "Bachelor of Science in Mathematics",
-      institution: "Tech State University",
-      period: "2017 - 2021",
-      description: "Minor in Computer Science. Dean's List for all semesters.",
+      degree: "Bachelor of Technology in Data Science & Artificial Intelligence",
+      institution: "IFHE University",
+      period: "2019 - 2023",
+      description: "",
       courses: ["Linear Algebra", "Probability Theory", "Programming Fundamentals", "Data Structures", "Database Systems"]
     }
   ];

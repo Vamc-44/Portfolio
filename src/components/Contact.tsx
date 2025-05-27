@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin, Instagram, Plus } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -48,9 +48,9 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
           <p className="text-light-slate mb-6">
-            I'm currently looking for new opportunities in data science and machine learning.
-            Whether you have a question, a project idea, or just want to say hello, 
-            feel free to reach out!
+          I'm currently exploring new opportunities in Data Science and Machine Learning, with a strong focus on analyzing and extracting insights from data.
+Whether you have a question, a project idea, or just want to connect and exchange thoughts—I'd be happy to chat.
+Feel free to reach out!
           </p>
           
           <Card className="bg-light-navy border-0 mb-8">
@@ -62,7 +62,7 @@ const Contact = () => {
                 <div>
                   <p className="text-lightest-slate font-medium">Email</p>
                   <a href="mailto:hello@datascienceportfolio.com" className="text-green hover:underline">
-                    hello@datascienceportfolio.com
+                    ankenapalle.0911@gmail.com
                   </a>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const Contact = () => {
             
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://github.com/Vamc-44" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"
@@ -83,22 +83,32 @@ const Contact = () => {
               </a>
               
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/ankenapalle" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"
               >
                 <Linkedin className="text-green" size={20} />
               </a>
-              
+
               <a 
-                href="#" 
+                href="https://public.tableau.com/app/profile/vamshidhar.reddy.ankenapalle/vizzes" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"
               >
-                <Twitter className="text-green" size={20} />
+                <Instagram className="text-green" size={20} />
               </a>
+
+              <a 
+                href="https://public.tableau.com/app/profile/vamshidhar.reddy.ankenapalle/vizzes" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"
+              >
+                <Plus className="text-green" size={20} />
+              </a>
+          
             </div>
           </div>
         </div>

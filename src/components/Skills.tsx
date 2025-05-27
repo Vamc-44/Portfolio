@@ -34,7 +34,7 @@ const Skills = () => {
   }, []);
 
   const technicalSkills = [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 88 },
     { name: "R", value: 75 },
     { name: "SQL", value: 85 },
     { name: "Machine Learning", value: 82 },
@@ -45,8 +45,8 @@ const Skills = () => {
   const dataToolSkills = [
     { name: "Tableau", value: 80 },
     { name: "PowerBI", value: 75 },
-    { name: "D3.js", value: 65 },
-    { name: "Pandas", value: 90 },
+    { name: "MS Excel", value: 80 },
+    { name: "Pandas", value: 80 },
     { name: "NumPy", value: 88 },
     { name: "Spark", value: 60 },
   ];

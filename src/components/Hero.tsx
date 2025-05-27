@@ -23,19 +23,23 @@ const Hero = () => {
   return (
     <div className="w-full max-w-4xl mx-auto flex flex-col items-start justify-center space-y-4 opacity-0 animate-fade-in" style={{ animationDelay: '0.5s' }}>
       <p className="font-mono text-green mb-2">Hi, my name is</p>
-      <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-lightest-slate mb-2">
-        Data Scientist<span className="text-green">.</span>
+      <h1 className="text-5xl sm:text-6xl md:text-5xl font-bold text-lightest-slate mb-2">
+        Vamshidhar Reddy Ankenapalle <span className="text-green">!</span>
       </h1>
       
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate mb-4 h-12">
+      <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-slate mb-4 h-12">
         {typedText}
         <span className="inline-block w-1 h-6 md:h-8 bg-green ml-1 animate-pulse-slow"></span>
       </h2>
       
-      <p className="text-slate max-w-xl text-lg mb-8">
-        I'm a data science graduate specializing in machine learning, data analysis, 
-        and visualization. My work focuses on turning complex data into meaningful insights
-        that drive decision-making.
+      <p className="text-slate max-w-4xl text-lg mb-8">
+      I'm Vamshidhar Reddy, a Master's student in Data Science at the University of Houston, 
+      passionate about solving real-world problems using data-driven solutions. I specialize 
+      in Machine learning, Deep learning, Data Analysis and Visualization , with hands-on experience
+      in projects involving state-of-the-art models and Business Intelligence tools. My academic 
+      journey is complemented by leadership roles and practical experience in data visualization, 
+      cloud platforms, and AI system development. I’m actively seeking opportunities to 
+      contribute to impactful projects, especially in the healthcare sectors.
       </p>
 
       <div className="flex flex-wrap gap-4">

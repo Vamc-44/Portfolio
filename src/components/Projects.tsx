@@ -33,43 +33,43 @@ const Projects = ({ filter }: ProjectsProps) => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Predictive Customer Analytics",
-      description: "Machine learning model that predicts customer churn using behavioral data, helping businesses identify at-risk customers and implement retention strategies.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
-      tags: ["Python", "Scikit-learn", "Pandas", "XGBoost"],
-      category: ["ml", "data"],
-      githubLink: "#",
-      demoLink: "#"
+      title: "Used Car Market Analysis – Tableau Dashboard for Pricing & Demand Insights",
+      description: "Analyzed 2,000+ U.S. auctioned vehicle records to identify pricing trends, mileage patterns, and brand-level demand across regions. Cleaned and validated data by removing null VINs, duplicates, and zero-mileage entries, ensuring high data integrity for analysis. Built an interactive Tableau dashboard with regional filters, calculated KPIs, sheet-in-sheet visualizations, and time-series forecasting to support data-driven insights.",
+      image: "/images/Tableau Dashboard.jpeg",
+      tags: ["Tableau", "Python", "Pandas", "Numpy", "Data Analysis", "Reporting"],
+      category: ["viz", "data"],
+      githubLink: "https://github.com/Vamc-44/USA_Cars_Tableau",
+      demoLink: "https://public.tableau.com/app/profile/vamshidhar.reddy.ankenapalle/viz/UsedCarMarketAnalysis_17472454403300/GeographicAnalysisbyBrandandModel"
     },
     {
       id: 2,
-      title: "Interactive COVID-19 Dashboard",
-      description: "Real-time visualization dashboard for tracking COVID-19 statistics globally, featuring interactive maps, trend analysis, and forecasting models.",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=600&q=80",
-      tags: ["D3.js", "React", "Python", "Flask"],
-      category: ["viz", "data"],
-      githubLink: "#",
-      demoLink: "#"
+      title: "BERTNet – Multimodal Sales Forecasting with Deep Learning",
+      description: "Developed a multimodal ML pipeline combining text (BERT) and image (EfficientNet) data for sales forecasting, improving prediction accuracy by 30% through cross-source reconciliation modeling. Assessed multiple models, with the BERT + EfficientNet approach achieving a classification accuracy of 75%. ",
+      image: "/images/BertNet.png",
+      tags: ["BERT", "EfficientNet", "Python", "Deep Learning","Data Preprocessing"],
+      category: ["ml", "data"],
+      githubLink: "https://github.com/Vamc-44/BertNet",
+      demoLink: null
     },
     {
       id: 3,
-      title: "NLP Sentiment Analysis",
-      description: "Deep learning model that analyzes customer reviews to determine sentiment, helping businesses understand customer feedback at scale.",
+      title: "LinkedIn-Job-Salary-Prediction-US-2023",
+      description: "Built a salary prediction model using LinkedIn job data by analyzing features like company size, industry, and skills. Applied data cleaning, EDA, feature selection, and model tuning (GridSearchCV) across multiple algorithms including SVM, Random Forest, XGBoost, ELM, and deep learning. Optimized performance using MSE and R², helping align salary expectations with market trends.",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-      tags: ["PyTorch", "BERT", "NLP", "Python"],
-      category: ["ml"],
-      githubLink: "#",
+      tags: ["ML models (KNN, SVM, RF, XGB, ELM)", "Data Handling", "Model Tuning & Evaluation"],
+      category: ["ml","data","viz"],
+      githubLink: "https://github.com/Vamc-44/LinkedIn-Job-Salary-Prediction-US-2023",
       demoLink: null
     },
     {
       id: 4,
-      title: "Time Series Forecasting",
-      description: "Advanced time series models for stock price prediction, utilizing LSTM networks and traditional statistical methods.",
+      title: "Selfie2Anime – Image Translation using GANs",
+      description: "Architected a Cycle GAN-based image translation system to convert real human portraits into anime-style illustrations, preserving facial structure and emotional fidelity.  Trained on a dataset of 7,000+ images for 100,000+ iterations, applying gradient penalty techniques to stabilize training, prevent mode collapse, and ensure consistent style generation.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&q=80",
-      tags: ["TensorFlow", "ARIMA", "Python", "Matplotlib"],
-      category: ["ml", "viz"],
-      githubLink: "#",
-      demoLink: "#"
+      tags: ["Python", "Pytorch", "Cartoon GAN", "Image Processing",],
+      category: ["ml"],
+      githubLink: "https://github.com/Vamc-44/GAN",
+      demoLink: null
     },
     {
       id: 5,
