@@ -47,7 +47,7 @@ const Projects = ({ filter }: ProjectsProps) => {
       description: "Developed a multimodal ML pipeline combining text (BERT) and image (EfficientNet) data for sales forecasting, improving prediction accuracy by 30% through cross-source reconciliation modeling. Assessed multiple models, with the BERT + EfficientNet approach achieving a classification accuracy of 75%. ",
       image: "/images/BertNet.png",
       tags: ["BERT", "EfficientNet", "Python", "Deep Learning","Data Preprocessing"],
-      category: ["ml", "data"],
+      category: ["ml"],
       githubLink: "https://github.com/Vamc-44/BertNet",
       demoLink: null
     },
@@ -55,7 +55,7 @@ const Projects = ({ filter }: ProjectsProps) => {
       id: 3,
       title: "LinkedIn-Job-Salary-Prediction-US-2023",
       description: "Built a salary prediction model using LinkedIn job data by analyzing features like company size, industry, and skills. Applied data cleaning, EDA, feature selection, and model tuning (GridSearchCV) across multiple algorithms including SVM, Random Forest, XGBoost, ELM, and deep learning. Optimized performance using MSE and R², helping align salary expectations with market trends.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+      image: "/images/Linkedin.png",
       tags: ["ML models (KNN, SVM, RF, XGB, ELM)", "Data Handling", "Model Tuning & Evaluation"],
       category: ["ml","data","viz"],
       githubLink: "https://github.com/Vamc-44/LinkedIn-Job-Salary-Prediction-US-2023",
@@ -65,7 +65,7 @@ const Projects = ({ filter }: ProjectsProps) => {
       id: 4,
       title: "Selfie2Anime – Image Translation using GANs",
       description: "Architected a Cycle GAN-based image translation system to convert real human portraits into anime-style illustrations, preserving facial structure and emotional fidelity.  Trained on a dataset of 7,000+ images for 100,000+ iterations, applying gradient penalty techniques to stabilize training, prevent mode collapse, and ensure consistent style generation.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&q=80",
+      image: "/images/GAN.png",
       tags: ["Python", "Pytorch", "Cartoon GAN", "Image Processing",],
       category: ["ml"],
       githubLink: "https://github.com/Vamc-44/GAN",
@@ -73,23 +73,33 @@ const Projects = ({ filter }: ProjectsProps) => {
     },
     {
       id: 5,
-      title: "Housing Price Prediction",
-      description: "Regression model that predicts housing prices based on multiple features, helping real estate agents and buyers make informed decisions.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80",
-      tags: ["R", "Linear Regression", "Random Forest"],
-      category: ["ml", "data"],
-      githubLink: "#",
+      title: "Wearabe-Health-Data-Analysis",
+      description: "Over a span of two months, I analyzed my Apple Watch sleep data to uncover patterns, detect anomalies, and gain insights into sleep quality. After cleaning and preprocessing the time-series data, I used statistical methods like rolling averages and z-scores to identify irregularities. I then classified sleep stages and visualized trends using Python and Power BI, enabling a clear view of daily and weekly sleep performance to support better health decisions.",
+      image: "/images/sleep.png",
+      tags: ["Time-Series Analysis", "Data Preprocessing", "Anomaly Detection", "Python", "Pandas", "Power BI"],
+      category: ["ml", "data", "viz"],
+      githubLink: "https://github.com/Vamc-44/Wearabe-Health-Data-Analysis",
       demoLink: null
     },
     {
       id: 6,
-      title: "Data Exploratory Tool",
-      description: "Web application that helps users explore and understand their datasets through automated visualizations and statistical summaries.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&q=80",
-      tags: ["Streamlit", "Pandas", "Seaborn", "Python"],
-      category: ["viz", "data"],
-      githubLink: "#",
-      demoLink: "#"
+      title: "Car Brand Detection – Image Classification with Transfer Learning",
+      description: "Built a car brand classification model using transfer learning with ResNet50. Applied data augmentation and fine-tuned a custom classifier to identify six car brands from images. Trained and evaluated the model on a labeled dataset, visualized accuracy/loss trends, and implemented real-time prediction on test images.",
+      image: "/images/cbd.png",
+      tags: ["Transfer Learning", "ResNet50", "TensorFlow/Keras", "Image Classification", "Data Augmentation"],
+      category: ["ml", "viz"],
+      githubLink: "https://github.com/Vamc-44/Car-Brand-Detection",
+      demoLink: null
+    },
+    {
+      id: 7,
+      title: "Plate Tracker – Automated License Plate Detection and Text Extraction",
+      description: "Developed Plate-Tracker, an automated license plate detection and text extraction system using InceptionResNetV2 and PyTesseract. The model detects plates in images using deep learning and extracts alphanumeric text via OCR. Preprocessing techniques were applied to improve accuracy, enabling seamless integration with parking and traffic management systems.",
+      image: "/images/PlateTracker.png",
+      tags: ["Computer Vision", "InceptionResNetV2", "OCR", "PyTesseract", "XML Annotation", "Object Detection"],
+      category: ["ml", "viz"],
+      githubLink: "https://github.com/Vamc-44/Plate-Tracker",
+      demoLink: null
     }
   ];
 

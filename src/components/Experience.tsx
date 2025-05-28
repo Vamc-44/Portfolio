@@ -14,9 +14,9 @@ const Experience = () => {
       description: [
         "Supervised 18 Graduate Assistants and led optimization of digital exam systems, improving scheduling operations for 3,000+ students per semester.",
         "Streamlined operations using Excel-driven templates and integrated automated validation logic, reducing scheduling conflicts by 40%. ",
-        "Maintained IT infrastructure and cross-functional communication to ensure system continuity and resolve technical roadblocks efficiently. "
+        "Maintained cross-functional communication and supported IT to ensure system continuity and resolve technical roadblocks efficiently. "
       ],
-      skills: ["Process Automation", "IT Infrastructure", "Workflow Optimization", "Leadership"]
+      skills: ["Leadership", "Data Management", "IT Support", "Process Automation", "Cross-Functional Collaboration", "MS365"   ]
     },
     {
       id: "Full-Time",

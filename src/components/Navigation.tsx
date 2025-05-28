@@ -54,8 +54,8 @@ const Navigation = ({ activeSection }: NavigationProps) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#home" className="font-mono text-green text-xl font-bold">
-              <span className="text-green">D</span>
-              <span className="text-lightest-slate">S</span>
+              <span className="text-green"></span>
+              <span className="text-lightest-slate"></span>
               <span className="text-green">Portfolio</span>
             </a>
           </div>

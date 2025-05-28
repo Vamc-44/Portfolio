@@ -26,23 +26,19 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="flex items-center mb-4">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-light-slate hover:text-green transition-colors mx-4"
-            >
-              <Github size={20} />
-            </a>
+          <p className="text-slate text-sm font-mono">
+            
+            <span className="text-green mx-1">Time >>> Money</span>
+          </p>
           </div>
           
           <p className="text-slate text-sm font-mono">
-            Designed & Built with 
-            <span className="text-green mx-1">❤</span>
+            
+            <span className="text-green mx-1">❤❤❤</span>
           </p>
           
           <p className="text-slate text-xs mt-2 font-mono">
-            © {new Date().getFullYear()} | Data Science Portfolio
+             
           </p>
         </div>
       </div>
