@@ -92,7 +92,7 @@ Feel free to reach out!
               </a>
 
               <a 
-                href="https://public.tableau.com/app/profile/vamshidhar.reddy.ankenapalle/vizzes" 
+                href="https://www.instagram.com/_vamc__44/profilecard/?igsh=MWR2bW8wazB2OW5hNw==" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"
@@ -101,7 +101,7 @@ Feel free to reach out!
               </a>
 
               <a 
-                href="https://www.instagram.com/_vamc__44/profilecard/?igsh=MWR2bW8wazB2OW5hNw==" 
+                href="https://public.tableau.com/app/profile/vamshidhar.reddy.ankenapalle/vizzes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-lightest-navy flex items-center justify-center transition-colors hover:bg-green/20"

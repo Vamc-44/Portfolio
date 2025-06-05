@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="flex items-center mb-4">
           <p className="text-slate text-sm font-mono">
             
-            <span className="text-green mx-1">Time >>> Money</span>
+            <span className="text-green mx-1">Time &gt;&gt;&gt; Money</span>
           </p>
           </div>
           
@@ -36,10 +36,7 @@ const Footer = () => {
             
             <span className="text-green mx-1">❤❤❤</span>
           </p>
-          
-          <p className="text-slate text-xs mt-2 font-mono">
-             
-          </p>
+      
         </div>
       </div>
       
