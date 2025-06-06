@@ -20,26 +20,38 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      console.log("Form submitted:", formData);
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-      
-      setFormData({
-        name: "",
-        email: "",
-        message: "",
-      });
-      setIsSubmitting(false);
-    }, 1500);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  try {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbzSbeIn69ey00_hJzJTBXOX8SfVhaeThZfcJrop4x9pO7szV_3a9LJyom43Ighq1QhO/exec", {
+      method: "POST",
+      mode: "no-cors", // 👈 important to avoid CORS block
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    // Can't read response with no-cors, so we assume success
+    toast({
+      title: "Message sent!",
+      description: "Thanks for reaching out. I'll get back to you soon.",
+    });
+
+    setFormData({ name: "", email: "", message: "" });
+  } catch (error) {
+    console.error("Submission error:", error);
+    toast({
+      title: "Something went wrong",
+      description: "Unable to send your message.",
+      variant: "destructive",
+    });
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   return (
     <div className="w-full max-w-4xl mx-auto">
